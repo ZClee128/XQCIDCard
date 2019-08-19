@@ -28,15 +28,20 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ZClee128/XQCIDCard.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'XQCIDCard/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'XQCIDCard' => ['XQCIDCard/Assets/*.png']
-  # }
-
+   s.resource_bundles = {
+     'XQCIDCard' => ['XQCIDCard/Assets/*.png']
+   }
+   s.resource = 'XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+
+  s.static_framework = true
+  s.ios.vendored_libraries = 'XQCIDCard/Classes/CardTool/liscanidcard/libscanidcardios.a','XQCIDCard/Classes/CardTool/liscanidcard/exbankcardcore/libbexbankcard.a'
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'ENABLE_BITCODE' => 'NO' ,'ENABLE_TESTABILITY' => 'NO'}
+#  s.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => 'XQCIDCard/Frameworks',"HEADER_SEARCH_PATHS" => "${PODS_ROOT}/../../CardTool/liscanidcard"}
   # s.dependency 'AFNetworking', '~> 2.3'
 end

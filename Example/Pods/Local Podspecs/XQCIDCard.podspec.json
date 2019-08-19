@@ -16,7 +16,25 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "XQCIDCard/Classes/**/*"
+  "source_files": "XQCIDCard/Classes/**/*",
+  "resource_bundles": {
+    "XQCIDCard": [
+      "XQCIDCard/Assets/*.png"
+    ]
+  },
+  "resources": "XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib",
+  "static_framework": true,
+  "ios": {
+    "vendored_libraries": [
+      "XQCIDCard/Classes/CardTool/liscanidcard/libscanidcardios.a",
+      "XQCIDCard/Classes/CardTool/liscanidcard/exbankcardcore/libbexbankcard.a"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "ENABLE_BITCODE": "NO",
+    "ENABLE_TESTABILITY": "NO"
+  }
 }

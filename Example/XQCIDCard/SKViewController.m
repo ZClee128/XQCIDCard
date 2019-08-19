@@ -7,7 +7,7 @@
 //
 
 #import "SKViewController.h"
-
+#import <XQCCardScanViewController.h>
 @interface SKViewController ()
 
 @end
@@ -18,6 +18,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+//    self.navigationController.navigationBar.hidden = YES;
+}
+- (IBAction)scan:(id)sender {
+    XQCCardScanViewController *cardScan = [[XQCCardScanViewController alloc] init];
+    cardScan.cardtype = ScaningCardIDWithFront;
+    cardScan.complete = ^(XQCCardModel * _Nonnull model) {
+        NSLog(@"model ==>%@",model);
+    };
+    [self.navigationController pushViewController:cardScan animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

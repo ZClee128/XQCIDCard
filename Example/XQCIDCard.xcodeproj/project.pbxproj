@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9BA60FCE230A408E008A4738 /* XQCIDCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA60FCD230A408E008A4738 /* XQCIDCard.framework */; };
 		9F928991C21F84ECC5A1D91D /* Pods_XQCIDCard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7199B9829A9351FC2D6A830 /* Pods_XQCIDCard_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		37144461D870A7D02A6F21DA /* Pods_XQCIDCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQCIDCard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F4FCC4519FEDA7FE5A63FF5 /* XQCIDCard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XQCIDCard.podspec; path = ../XQCIDCard.podspec; sourceTree = "<group>"; };
+		4F4FCC4519FEDA7FE5A63FF5 /* XQCIDCard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XQCIDCard.podspec; path = ../XQCIDCard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* XQCIDCard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQCIDCard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +62,13 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98811FCE9E6D93E73C639C76 /* Pods-XQCIDCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQCIDCard_Example.release.xcconfig"; path = "Target Support Files/Pods-XQCIDCard_Example/Pods-XQCIDCard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9BBC03429C0C2E56B3616002 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9BA60FCD230A408E008A4738 /* XQCIDCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XQCIDCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BBC03429C0C2E56B3616002 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B3AF3DF7A5720E0A6B826647 /* Pods-XQCIDCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQCIDCard_Example.debug.xcconfig"; path = "Target Support Files/Pods-XQCIDCard_Example/Pods-XQCIDCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB050C0C01A99D4B2B5ED883 /* Pods-XQCIDCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQCIDCard_Tests.release.xcconfig"; path = "Target Support Files/Pods-XQCIDCard_Tests/Pods-XQCIDCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C7199B9829A9351FC2D6A830 /* Pods_XQCIDCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQCIDCard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84AA026AF13A961098ABFA6 /* Pods-XQCIDCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQCIDCard_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XQCIDCard_Tests/Pods-XQCIDCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F8F3BD0562643652A9E794AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8F3BD0562643652A9E794AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA60FCE230A408E008A4738 /* XQCIDCard.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BA60FCD230A408E008A4738 /* XQCIDCard.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +197,6 @@
 				F84AA026AF13A961098ABFA6 /* Pods-XQCIDCard_Tests.debug.xcconfig */,
 				BB050C0C01A99D4B2B5ED883 /* Pods-XQCIDCard_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +211,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4D4BC58B6831A1BA3751BEA6 /* [CP] Embed Pods Frameworks */,
+				5381A5E2BF24E29B0B622840 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ZClee128;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = MXEAV3WBEM;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -339,7 +346,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D4BC58B6831A1BA3751BEA6 /* [CP] Embed Pods Frameworks */ = {
+		5381A5E2BF24E29B0B622840 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,18 +354,20 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XQCIDCard_Example/Pods-XQCIDCard_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XQCIDCard/XQCIDCard.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-XQCIDCard_Example/Pods-XQCIDCard_Example-resources.sh",
+				"${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib",
+				"${PODS_CONFIGURATION_BUILD_DIR}/XQCIDCard/XQCIDCard.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XQCIDCard.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zocr0.lib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XQCIDCard.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XQCIDCard_Example/Pods-XQCIDCard_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XQCIDCard_Example/Pods-XQCIDCard_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -498,13 +507,25 @@
 			baseConfigurationReference = B3AF3DF7A5720E0A6B826647 /* Pods-XQCIDCard_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXEAV3WBEM;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XQCIDCard/XQCIDCard-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/XQCIDCard/XQCIDCard.framework/Headers\"",
+				);
 				INFOPLIST_FILE = "XQCIDCard/XQCIDCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -514,13 +535,25 @@
 			baseConfigurationReference = 98811FCE9E6D93E73C639C76 /* Pods-XQCIDCard_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXEAV3WBEM;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XQCIDCard/XQCIDCard-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/XQCIDCard/XQCIDCard.framework/Headers\"",
+				);
 				INFOPLIST_FILE = "XQCIDCard/XQCIDCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
