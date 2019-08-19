@@ -1,0 +1,22 @@
+{
+  "name": "XQCIDCard",
+  "version": "0.1.0",
+  "summary": "A short description of XQCIDCard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ZClee128/XQCIDCard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZClee128": "876231865@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ZClee128/XQCIDCard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XQCIDCard/Classes/**/*"
+}

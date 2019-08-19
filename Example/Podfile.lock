@@ -1,0 +1,16 @@
+PODS:
+  - XQCIDCard (0.1.0)
+
+DEPENDENCIES:
+  - XQCIDCard (from `../`)
+
+EXTERNAL SOURCES:
+  XQCIDCard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XQCIDCard: e93d2ad86b276b3b963dfede8ab39296de635e38
+
+PODFILE CHECKSUM: e622b9cff3399cc7a8cfc32aaca974cd07057c22
+
+COCOAPODS: 1.6.1

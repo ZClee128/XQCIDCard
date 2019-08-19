@@ -1,0 +1,6 @@
+framework module Pods_XQCIDCard_Example {
+  umbrella header "Pods-XQCIDCard_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
