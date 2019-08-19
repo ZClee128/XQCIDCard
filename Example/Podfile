@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XQCIDCard_Example' do
+  pod 'XQCIDCard', :path => '../'
+
+  target 'XQCIDCard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
