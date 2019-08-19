@@ -98,10 +98,20 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/BankCard.h"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/commondef.h"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/exbankcard.h"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/exbankcardcore.h"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/excards.h"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/XQCIDCard/XQCIDCard.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/BankCard.h"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/commondef.h"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/exbankcard.h"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/exbankcardcore.h"
+  install_resource "${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/excards.h"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/XQCIDCard/XQCIDCard.bundle"
 fi
 

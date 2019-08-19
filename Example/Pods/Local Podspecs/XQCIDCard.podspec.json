@@ -19,12 +19,16 @@
     "ios": "9.0"
   },
   "source_files": "XQCIDCard/Classes/**/*",
+  "public_header_files": "XQCIDCard/Classes/CardTool/*.h",
   "resource_bundles": {
     "XQCIDCard": [
       "XQCIDCard/Assets/*.png"
     ]
   },
-  "resources": "XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib",
+  "resources": [
+    "XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib",
+    "XQCIDCard/Classes/CardTool/liscanidcard/*.h"
+  ],
   "static_framework": true,
   "ios": {
     "vendored_libraries": [

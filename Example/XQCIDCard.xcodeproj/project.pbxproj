@@ -356,6 +356,11 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XQCIDCard_Example/Pods-XQCIDCard_Example-resources.sh",
 				"${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib",
+				"${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/BankCard.h",
+				"${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/commondef.h",
+				"${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/exbankcard.h",
+				"${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/exbankcardcore.h",
+				"${PODS_ROOT}/../../XQCIDCard/Classes/CardTool/liscanidcard/excards.h",
 				"${PODS_CONFIGURATION_BUILD_DIR}/XQCIDCard/XQCIDCard.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -363,6 +368,11 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zocr0.lib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BankCard.h",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/commondef.h",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/exbankcard.h",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/exbankcardcore.h",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/excards.h",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XQCIDCard.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

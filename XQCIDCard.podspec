@@ -31,11 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XQCIDCard/Classes/**/*'
+  s.public_header_files = 'XQCIDCard/Classes/CardTool/*.h'
   
    s.resource_bundles = {
      'XQCIDCard' => ['XQCIDCard/Assets/*.png']
    }
-   s.resource = 'XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib'
+   s.resource = 'XQCIDCard/Classes/CardTool/liscanidcard/dicts/zocr0.lib','XQCIDCard/Classes/CardTool/liscanidcard/*.h'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 

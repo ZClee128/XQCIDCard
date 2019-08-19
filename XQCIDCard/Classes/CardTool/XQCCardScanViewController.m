@@ -15,6 +15,7 @@
 #import "UIImage+XQCExtend.h"
 #import "XQCBankSearch.h"
 #import "IDCardSDKHeader.h"
+#import "AlertTool.h"
 @interface XQCCardScanViewController ()<AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureMetadataOutputObjectsDelegate>
 
 //身份证数据模型
@@ -51,10 +52,15 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"扫描身份证";
+    self.navigationItem.title = @"扫描";
 //    [[XQCAlertTool showAlertTitle:@"模拟器没有摄像设备" message:@"请使用真机测试！！！"] subscribeNext:^(id  _Nullable x) {
 //        [self.navigationController popViewControllerAnimated:YES];
 //    }];
+    [AlertTool showTitle:@"模拟器没有摄像设备" Message:@"请使用真机测试！！！" cancleTitle:@"" sureTitle:@"确定" viewController:self cancle:^(UIAlertAction * _Nonnull action) {
+        
+    } sure:^(UIAlertAction * _Nonnull action) {
+        [self.navigationController popViewControllerAnimated:YES];
+    }];
 }
 
 #else
@@ -153,9 +159,7 @@
         AVCaptureDeviceInput *input = [AVCaptureDeviceInput deviceInputWithDevice:self.device error:&error];
         
         if (error) {
-//            [[XQCAlertTool showAlertTitle:@"没有摄像设备" message:error] subscribeNext:^(id  _Nullable x) {
-//
-//            }];
+
         }else {
             if ([_session canAddInput:input]) {
                 [_session addInput:input];
@@ -238,9 +242,12 @@
         }
         [self.device unlockForConfiguration];// 请求解除独占访问硬件设备
     }else {
-//        [[XQCAlertTool showAlertTitle:@"提示" message:@"您的设备没有闪光设备，不能提供手电筒功能，请检查"] subscribeNext:^(id  _Nullable x) {
-//
-//        }];
+        [AlertTool showTitle:@"提示" Message:@"您的设备没有闪光设备，不能提供手电筒功能，请检查" cancleTitle:@"取消" sureTitle:@"确定" viewController:self cancle:^(UIAlertAction * _Nonnull action) {
+            
+        } sure:^(UIAlertAction * _Nonnull action) {
+            
+        }];
+
     }
 }
 
@@ -361,9 +368,11 @@
 //    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:nil];
 //
 //    [self alertControllerWithTitle:title message:message okAction:okAction cancelAction:cancelAction];
-//    [[XQCAlertTool showAlertTitle:@"相机未授权" message:@"请到系统的“设置-隐私-相机”中授权此应用使用您的相机"] subscribeNext:^(id  _Nullable x) {
-//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
-//    }];
+    [AlertTool showTitle:@"相机未授权" Message:@"请到系统的“设置-隐私-相机”中授权此应用使用您的相机" cancleTitle:@"取消" sureTitle:@"确定" viewController:self cancle:^(UIAlertAction * _Nonnull action) {
+        
+    } sure:^(UIAlertAction * _Nonnull action) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+    }];
 }
 
 #pragma mark 使用相机设备受限
@@ -373,9 +382,11 @@
 //    
 //    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil];
 //    [self alertControllerWithTitle:title message:message okAction:okAction cancelAction:nil];
-//    [[XQCAlertTool showAlertTitle:@"相机设备受限" message:@"请检查您的手机硬件或设置"] subscribeNext:^(id  _Nullable x) {
-//
-//    }];
+    [AlertTool showTitle:@"相机未授权" Message:@"请到系统的“设置-隐私-相机”中授权此应用使用您的相机" cancleTitle:@"取消" sureTitle:@"确定" viewController:self cancle:^(UIAlertAction * _Nonnull action) {
+        
+    } sure:^(UIAlertAction * _Nonnull action) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+    }];
 }
 
 #pragma mark - AVCaptureMetadataOutputObjectsDelegate
@@ -597,6 +608,7 @@
     }
     CVPixelBufferUnlockBaseAddress(imageBuffer, 0);
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
