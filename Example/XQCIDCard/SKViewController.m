@@ -26,7 +26,9 @@
     cardScan.complete = ^(XQCCardModel * _Nonnull model) {
         NSLog(@"model ==>%@",model);
     };
-    [self.navigationController pushViewController:cardScan animated:YES];
+//    [self.navigationController pushViewController:cardScan animated:YES];
+    [self presentViewController:cardScan animated:YES completion:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning

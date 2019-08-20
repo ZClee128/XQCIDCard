@@ -1,6 +1,6 @@
 {
   "name": "XQCIDCard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of XQCIDCard.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ZClee128/XQCIDCard",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ZClee128/XQCIDCard.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

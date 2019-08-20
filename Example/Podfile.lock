@@ -1,5 +1,5 @@
 PODS:
-  - XQCIDCard (0.1.0)
+  - XQCIDCard (0.1.1)
 
 DEPENDENCIES:
   - XQCIDCard (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XQCIDCard: 1fb67a6f572daddc52497e3bfcead5e2b7f9e551
+  XQCIDCard: b8f4cfb77aac71d05cc2cb546df26daf33104ae3
 
 PODFILE CHECKSUM: 04f11d4001a6d46cf5839afe37e39dfd3508f59d
 

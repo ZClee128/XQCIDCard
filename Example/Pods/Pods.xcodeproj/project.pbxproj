@@ -7,53 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B45AF7739E25B9ECD9032FC1DB245EC /* commondef.h in Headers */ = {isa = PBXBuildFile; fileRef = 44394D77C51151E55BD2FB8C96234896 /* commondef.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F10B22C37A3868BF7DC9117B52493A6 /* exbankcardcore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6540EE04B90BECF323579C4ED3ECB455 /* exbankcardcore.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		121882486C30C539B0F885A5F92D34F5 /* BankCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F29C6347461204C9FF4D84E8AF1FE0B /* BankCard.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		194B7973D3547D4D414BF9A0681F4E23 /* RectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 357CEC104C02CE80111BD1AC9DC0AD12 /* RectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02B13BCBE1C55FB232B49276EE638B7D /* IDCardSDKHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D4D5183ED55D3D50D06E4AAE46E17B /* IDCardSDKHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E2BB0A61C8C4F475E3031A78801B034 /* navi_back_black.png in Resources */ = {isa = PBXBuildFile; fileRef = F82B9A74B9248B2298E9F737569CDC86 /* navi_back_black.png */; };
+		0E6ED3124142B97BA5D7F05C0DAC81B9 /* UIImage+XQCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB55A82669B2F641637167274BB4153 /* UIImage+XQCExtend.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1A594E5D6C0326289D7663C761548B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		1A767653CC72452FE8EE42777F8A1FED /* AlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BC572BD89EA349D76B31EA18680B39 /* AlertTool.m */; };
-		1E1921AE9BC63E96C1CD900E16E677DF /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = F6825CE1CB42326EF08249DF525605A7 /* zocr0.lib */; };
+		1E1921AE9BC63E96C1CD900E16E677DF /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = D5A9E8D90838693E9223C11DA6631596 /* zocr0.lib */; };
+		1E40501045F883D5BF20AA2FDED75089 /* XQCIDCardScaningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E7A7BEEB1487F2E22472147732158 /* XQCIDCardScaningView.m */; };
+		1EB00E42FE9129BECFF54426ECB14EB9 /* XQCCardScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64734768415497FD826FCFDDAA95C12 /* XQCCardScanViewController.m */; };
+		230C926D39A32F806489E59B84140081 /* UIImage+myImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5305822E5BF7172464BC1B5EA6C30BFC /* UIImage+myImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		279F47309B3F18EC7543464536021A07 /* XQCIDCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58F625319CD84786F21FC702D77D70B0 /* XQCIDCard.bundle */; };
-		2B49F3B67E05D887E6A601F02C87EE79 /* libscanidcardios.a in Sources */ = {isa = PBXBuildFile; fileRef = F021EEEC7D2971010438FB380D216CD2 /* libscanidcardios.a */; };
-		33309CFB9CF4F7DE72F3DD11F22E9A7B /* IDCardSDKHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2354D2BB6D247BC58EE6663ED85ACC20 /* IDCardSDKHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D93B881831F9A8846D01A65B611C13B /* XQCIDCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E36A02E0F7F34C1AE5234F23B1691552 /* XQCIDCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B5FC3610E9C1689AD28DA3B9E755B35 /* libbexbankcard.a in Sources */ = {isa = PBXBuildFile; fileRef = F148DE2F90F6A5C1303CD15FCA5B8FE7 /* libbexbankcard.a */; };
 		4105931D2B37C9FB367694A070099EDD /* Pods-XQCIDCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA71735F30CA318C1C1612F5AC8074C0 /* Pods-XQCIDCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		424954646D7E975C969A83913500ED2F /* UIImage+XQCExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A65C77FDC5BBEB36862774FD5F8A7A5 /* UIImage+XQCExtend.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4299B705AFF7332222CA24D2FEA86E6C /* Pods-XQCIDCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290FA50290D6573F4B44223C295E91D /* Pods-XQCIDCard_Tests-dummy.m */; };
-		51C457CD4CAC6498BD3210F6278CC6BF /* BankCard.h in Resources */ = {isa = PBXBuildFile; fileRef = 6F29C6347461204C9FF4D84E8AF1FE0B /* BankCard.h */; };
-		5832660727A6C6B12BE9A20F61DD54A5 /* XQCCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFC70F5F402617CADDB73006794A3A0 /* XQCCardModel.m */; };
-		585AE304BE53780CF5CBE90995041CC5 /* AlertTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 39962D7E2AB6AB294BE70BE70F1DCC0E /* AlertTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C37D59A54AAEE27C1667C39C90F2443 /* libbexbankcard.a in Sources */ = {isa = PBXBuildFile; fileRef = 9D3DCBC19348D0EB5E0A073FF7ED16EA /* libbexbankcard.a */; };
-		5E165C6EDB7234884C2C27431BABA89C /* publicClass.h in Headers */ = {isa = PBXBuildFile; fileRef = C249F62F902BDC22D8FF521073DC96C6 /* publicClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FAFDF73D05BDB91B74C1411D7E92F54 /* exbankcard.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E86D8A072EA1E2B0873F462CB871BA /* exbankcard.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		676954C35FB91438A036F32422452663 /* XQCCardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CECAFDF036D02F9564FF6D9F43DB5CE /* XQCCardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FD93144FC178B5FA076A813F6F596D7 /* commondef.h in Resources */ = {isa = PBXBuildFile; fileRef = 44394D77C51151E55BD2FB8C96234896 /* commondef.h */; };
-		79764173434B6AEC675A44E015E30F01 /* XQCIDCardScaningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B4736CC772E442339D172E059BE072 /* XQCIDCardScaningView.m */; };
-		7EF6FC1BEA07A1F99C44BD19E0C9E122 /* UIImage+XQCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = E9584D5117FA05A9FDB7667D7CF95893 /* UIImage+XQCExtend.m */; };
-		803B0BEEF0AAEF734C381DB6DD70ABF3 /* exbankcard.h in Resources */ = {isa = PBXBuildFile; fileRef = 24E86D8A072EA1E2B0873F462CB871BA /* exbankcard.h */; };
-		874168E5DFF7DB50D867C494FB294B99 /* XQCCardScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151066E5C891B1726473762CA994C826 /* XQCCardScanViewController.m */; };
-		8C033621271B1D68888BE7B9D14C851F /* IDCard_guohui.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DFC778B807301C2B77E5B2419A4980 /* IDCard_guohui.png */; };
-		8D4119927943B221D66B52CA70C6892B /* excards.h in Resources */ = {isa = PBXBuildFile; fileRef = B3697CFB054A05979F29C5E0EE467FE2 /* excards.h */; };
-		8FDFCD44455EA20C8116284A717184F1 /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA21B0AAD2DA696F759B85626687FA /* RectManager.m */; };
-		9147DB155603DFC280DA8C780F530FEB /* exbankcardcore.h in Resources */ = {isa = PBXBuildFile; fileRef = 6540EE04B90BECF323579C4ED3ECB455 /* exbankcardcore.h */; };
-		99CDAEC2A25B2BC1D7265D7A927A32DA /* XQCBankSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4384282DD373E5E04A78117767F2B24E /* XQCBankSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4440957EB840A6BAC9EE7C07D800D554 /* UIImage+XQCExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 71976C432F9C28163F2839552FE3B375 /* UIImage+XQCExtend.m */; };
+		49507F998433DDAFD0DC3DACA3A2BE16 /* publicClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BA07C0AE4CB395C87FE859F64F062F /* publicClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D3EDC6FADEF3124B95EA8CA5D2857AD /* commondef.h in Headers */ = {isa = PBXBuildFile; fileRef = 939008E8FF0278A6EEED1198F8BAC0BD /* commondef.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51C457CD4CAC6498BD3210F6278CC6BF /* BankCard.h in Resources */ = {isa = PBXBuildFile; fileRef = 45ECEABB975E9794ED840FEE648D5D8D /* BankCard.h */; };
+		53130FAB86DBDDCC8468D2204395D517 /* zocr0.lib in Sources */ = {isa = PBXBuildFile; fileRef = D5A9E8D90838693E9223C11DA6631596 /* zocr0.lib */; };
+		62FA6DE3F8D68D5DE7CFFC3A67AE4410 /* UIButton+paySDkBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F9DA9E5EE5A4E77D2223471612FEA8 /* UIButton+paySDkBtn.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6897F3018C1B3DA94E7EB8E6ADB2239C /* publicClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D08DCB90616CB278EEF68CC45086196F /* publicClass.m */; };
+		6FD93144FC178B5FA076A813F6F596D7 /* commondef.h in Resources */ = {isa = PBXBuildFile; fileRef = 939008E8FF0278A6EEED1198F8BAC0BD /* commondef.h */; };
+		707CC9218CFFD48D02DB7BF98F77F724 /* AlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 487B7AAED551B71CEFDD970E28BD0180 /* AlertTool.m */; };
+		7353F3F02F1D2E3F6620F26A6AE5DB6F /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB180CA81CFA0462E0FA6D572181E3BB /* RectManager.m */; };
+		74A28AFDF1D69BA745EE8846752CC242 /* IDCard_guohui.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D83BAFC2E3A127B19F0616E05D95B5 /* IDCard_guohui.png */; };
+		7FABA74BC69ECBF80B74EAD196C3226A /* RectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AD5DA7F67FB5BE0E35308BCCCBE2FD /* RectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		803B0BEEF0AAEF734C381DB6DD70ABF3 /* exbankcard.h in Resources */ = {isa = PBXBuildFile; fileRef = 16FCA5E1814BD1CA57DC4B5EB75945D0 /* exbankcard.h */; };
+		8495F13C8271BD2903FB93B9F1842924 /* NSBundle+loadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E0B4EE0A4F98D75CC0BD32F5C57BE /* NSBundle+loadImage.m */; };
+		8D4119927943B221D66B52CA70C6892B /* excards.h in Resources */ = {isa = PBXBuildFile; fileRef = A4603941C04568667BC1D1926DD606D9 /* excards.h */; };
+		9031D99B12A1B7F52E4C6BB926A3BED4 /* XQCBankSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3D041174510B200F114F3F1EB17935 /* XQCBankSearch.m */; };
+		9147DB155603DFC280DA8C780F530FEB /* exbankcardcore.h in Resources */ = {isa = PBXBuildFile; fileRef = 4155A95CE26005E456F8860D771DC7A5 /* exbankcardcore.h */; };
+		95C1FD34213F4E04BFEDD81F30DB583A /* NSBundle+loadImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D0962415F3ED5DD7036E3A01F260D4A8 /* NSBundle+loadImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ABE2987BCAA20FE2DB808F4C26609736 /* Pods-XQCIDCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1050F6FEBEB9BFB34A33510FB3891BDF /* Pods-XQCIDCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFB3E6DDBFFD05BC523306B60F6864A4 /* NSBundle+loadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC842BB39436A7A3208A5CD2BA096F97 /* NSBundle+loadImage.m */; };
-		B023F2D78DF609149301C0D6D98D891E /* XQCIDCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A75774BC5218D373F4D9074A39B186F /* XQCIDCard-dummy.m */; };
+		AC16CEE6354BDC10A2635FB83D343E43 /* BankCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ECEABB975E9794ED840FEE648D5D8D /* BankCard.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B05D3A50CAA3159280DF3FD7D8E9EFC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B13343443771DF2C9A1D325A72D1C1E6 /* XQCBankSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF316796251D349E36913DA97FAD43E /* XQCBankSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3544DF040E4E7B28CB1CE6A92F479A5 /* XQCIDCardScaningView.h in Headers */ = {isa = PBXBuildFile; fileRef = B785CF861F4637111A736985677801F9 /* XQCIDCardScaningView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B581CB4D2C79691AE45583187456A525 /* Pods-XQCIDCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FBB8B70178533CEDA5B946317700A2 /* Pods-XQCIDCard_Example-dummy.m */; };
-		B7FC53D94053C43663BC19288A386145 /* XQCCardScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C0C5587F09283AABE76AFD5F646796 /* XQCCardScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFE9029559DE8A8A8E4C0C5631C1A643 /* XQCIDCardScaningView.h in Headers */ = {isa = PBXBuildFile; fileRef = C75D669E994E49040CB01C0C9ED86C26 /* XQCIDCardScaningView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C093D423AAE0FCD10CD826B3215444E4 /* UIImage+myImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E1561C8719A2E90339975F0D0CB3D7 /* UIImage+myImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C26587E38BEA1F744C3CDDC9D76188C1 /* UIImage+myImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F52D6677A01AFDA8CA357A369D1EFC65 /* UIImage+myImage.m */; };
+		B6D5094A450360EA1E70DA9369A414A0 /* IDCard_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCF6803BFC56890FC4EA524593A3008 /* IDCard_head.png */; };
+		BC2FF73DE6F740845402581DA87B832F /* exbankcard.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FCA5E1814BD1CA57DC4B5EB75945D0 /* exbankcard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC32C03AE522EC1A0C54F7EC11911524 /* AlertTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEFC8C20032FF60EE8A179CEF19570E /* AlertTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C12168A5B0669B73B801E98106BF3E57 /* UIImage+myImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F65375F42501AC59EB2722F5533F1FB5 /* UIImage+myImage.m */; };
+		C409F3FB3F93735AEDAE8FB609422995 /* libscanidcardios.a in Sources */ = {isa = PBXBuildFile; fileRef = F69934CE4BC60BB608391EA6A4B5057C /* libscanidcardios.a */; };
+		C6C8F407ACF2F853EEA5908C87DEEBDE /* XQCCardScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 670E229EB30D32BD528FD21E5758DB49 /* XQCCardScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6D2CAE10598ACA061553513FCEDA3EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		D5F80DDE1EECBBB37A860AB99E5E6DAA /* excards.h in Headers */ = {isa = PBXBuildFile; fileRef = B3697CFB054A05979F29C5E0EE467FE2 /* excards.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D8A61D8E0FE6ECE44CD95A1AEAAD337D /* publicClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 548610A15C74140C93788B62A2B1FFEE /* publicClass.m */; };
-		D9D173F0E1F125EDF56B32C40FE8E867 /* NSBundle+loadImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C7B5C28BE8978B09B6DDDDD15B872E /* NSBundle+loadImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DD006E0DDD3AB01F0B7E6A75257E1075 /* zocr0.lib in Sources */ = {isa = PBXBuildFile; fileRef = F6825CE1CB42326EF08249DF525605A7 /* zocr0.lib */; };
-		E3EA87339630E7F6E4D20686BF36C477 /* IDCard_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A37940C49A45557EC02D5C96D9EDE6 /* IDCard_head.png */; };
-		EC2E07B95BC7646DCA7CFA2A4AEC24E0 /* XQCIDCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E46EFA665E837C99AD2FD995D3CE19D8 /* XQCIDCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBC59DEE29B8A39ECDD125241EBC3EFF /* XQCBankSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 351E36D16E8AC75C73670307FE2E9A3E /* XQCBankSearch.m */; };
+		C6E8064AF712E9F27257B425F76737AD /* XQCCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4DEEA9BE031A35288D2049633721BF /* XQCCardModel.m */; };
+		CB5D47745BA44A5579386445D0D71DB3 /* NavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19928EDD3586C8BFF02B1EA628FB27B6 /* NavView.m */; };
+		CC73B873358AA5A4C3FB5079FC02F9C2 /* excards.h in Headers */ = {isa = PBXBuildFile; fileRef = A4603941C04568667BC1D1926DD606D9 /* excards.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFCAFA8ECACA1D25450B59BDC0C5574D /* XQCIDCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC632A457545848B8C7CA9ABF9A762 /* XQCIDCard-dummy.m */; };
+		D92408BCA867F2AAA03F372ABCA59CAB /* UIButton+paySDkBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FA0CE916EF1DE0A8023613F6AD20 /* UIButton+paySDkBtn.m */; };
+		E3C362AA9848BAE645B82D4850B64E9F /* exbankcardcore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4155A95CE26005E456F8860D771DC7A5 /* exbankcardcore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F77A51FC393296A3BDCBA335EF1214FC /* XQCCardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0364201C762C5759CF937C8544B11154 /* XQCCardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA35766510BA9018C49874F67B94C964 /* NavView.h in Headers */ = {isa = PBXBuildFile; fileRef = D10212C736B256944B81B9892AE2A794 /* NavView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,70 +86,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		011D8C05102DA37BF7CDB2DAEEAFCF9D /* XQCIDCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XQCIDCard-Info.plist"; sourceTree = "<group>"; };
+		0364201C762C5759CF937C8544B11154 /* XQCCardModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQCCardModel.h; sourceTree = "<group>"; };
 		044BB4F87F2AFDA8B788EF84F577F12C /* Pods-XQCIDCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XQCIDCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		06B4736CC772E442339D172E059BE072 /* XQCIDCardScaningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQCIDCardScaningView.m; sourceTree = "<group>"; };
 		07D2D91FD65C2BED4F09F77B76638956 /* Pods-XQCIDCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQCIDCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0DB55A82669B2F641637167274BB4153 /* UIImage+XQCExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XQCExtend.h"; sourceTree = "<group>"; };
+		0DCF6803BFC56890FC4EA524593A3008 /* IDCard_head.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = IDCard_head.png; path = XQCIDCard/Assets/IDCard_head.png; sourceTree = "<group>"; };
 		1050F6FEBEB9BFB34A33510FB3891BDF /* Pods-XQCIDCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XQCIDCard_Tests-umbrella.h"; sourceTree = "<group>"; };
 		12FBB8B70178533CEDA5B946317700A2 /* Pods-XQCIDCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XQCIDCard_Example-dummy.m"; sourceTree = "<group>"; };
-		151066E5C891B1726473762CA994C826 /* XQCCardScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQCCardScanViewController.m; sourceTree = "<group>"; };
-		17A37940C49A45557EC02D5C96D9EDE6 /* IDCard_head.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = IDCard_head.png; path = XQCIDCard/Assets/IDCard_head.png; sourceTree = "<group>"; };
-		1CECAFDF036D02F9564FF6D9F43DB5CE /* XQCCardModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQCCardModel.h; sourceTree = "<group>"; };
-		1ECA21B0AAD2DA696F759B85626687FA /* RectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
-		2354D2BB6D247BC58EE6663ED85ACC20 /* IDCardSDKHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDCardSDKHeader.h; path = XQCIDCard/Classes/IDCardSDKHeader.h; sourceTree = "<group>"; };
-		24E86D8A072EA1E2B0873F462CB871BA /* exbankcard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
+		16FCA5E1814BD1CA57DC4B5EB75945D0 /* exbankcard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
+		19928EDD3586C8BFF02B1EA628FB27B6 /* NavView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NavView.m; path = XQCIDCard/Classes/NavView.m; sourceTree = "<group>"; };
+		1DEC632A457545848B8C7CA9ABF9A762 /* XQCIDCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XQCIDCard-dummy.m"; sourceTree = "<group>"; };
+		1E90B92C4F1A23EB12E2F2A591EF6984 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		24D83BAFC2E3A127B19F0616E05D95B5 /* IDCard_guohui.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = IDCard_guohui.png; path = XQCIDCard/Assets/IDCard_guohui.png; sourceTree = "<group>"; };
 		2C9970F41ED765E539C91B606DBD40D2 /* Pods-XQCIDCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQCIDCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2EFC70F5F402617CADDB73006794A3A0 /* XQCCardModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQCCardModel.m; sourceTree = "<group>"; };
 		3290FA50290D6573F4B44223C295E91D /* Pods-XQCIDCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XQCIDCard_Tests-dummy.m"; sourceTree = "<group>"; };
+		329B4CDD8EF85E391842B4F7A1EE3CE0 /* XQCIDCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XQCIDCard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32AD5DA7F67FB5BE0E35308BCCCBE2FD /* RectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
 		344DFE4447F6FE4656338CB30A58C2B9 /* Pods-XQCIDCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XQCIDCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		351E36D16E8AC75C73670307FE2E9A3E /* XQCBankSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQCBankSearch.m; sourceTree = "<group>"; };
-		357CEC104C02CE80111BD1AC9DC0AD12 /* RectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
-		39962D7E2AB6AB294BE70BE70F1DCC0E /* AlertTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlertTool.h; path = XQCIDCard/Classes/AlertTool.h; sourceTree = "<group>"; };
-		4384282DD373E5E04A78117767F2B24E /* XQCBankSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQCBankSearch.h; sourceTree = "<group>"; };
-		44394D77C51151E55BD2FB8C96234896 /* commondef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
-		4B3484C6348F4CA667066BD70C81C187 /* XQCIDCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XQCIDCard.modulemap; sourceTree = "<group>"; };
+		3A703EE611B2F706C36EB9D02C2246C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3EFC7A8CC56D3B1924DED90FB2A12B6F /* XQCIDCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XQCIDCard.modulemap; sourceTree = "<group>"; };
+		4155A95CE26005E456F8860D771DC7A5 /* exbankcardcore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = exbankcardcore.h; sourceTree = "<group>"; };
+		457E7A7BEEB1487F2E22472147732158 /* XQCIDCardScaningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQCIDCardScaningView.m; sourceTree = "<group>"; };
+		45ECEABB975E9794ED840FEE648D5D8D /* BankCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		487B7AAED551B71CEFDD970E28BD0180 /* AlertTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AlertTool.m; path = XQCIDCard/Classes/AlertTool.m; sourceTree = "<group>"; };
 		500134C723894242933193E7EE179D47 /* Pods-XQCIDCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XQCIDCard_Tests.modulemap"; sourceTree = "<group>"; };
 		516F4D9A3B125B5B8553040BFB0C10E7 /* XQCIDCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XQCIDCard.framework; path = XQCIDCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53311B5B28AC74F548EF33E0E253094C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		53C7B5C28BE8978B09B6DDDDD15B872E /* NSBundle+loadImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+loadImage.h"; sourceTree = "<group>"; };
-		548610A15C74140C93788B62A2B1FFEE /* publicClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = publicClass.m; sourceTree = "<group>"; };
+		52BA07C0AE4CB395C87FE859F64F062F /* publicClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = publicClass.h; sourceTree = "<group>"; };
+		5305822E5BF7172464BC1B5EA6C30BFC /* UIImage+myImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+myImage.h"; sourceTree = "<group>"; };
 		58F625319CD84786F21FC702D77D70B0 /* XQCIDCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XQCIDCard.bundle; path = "XQCIDCard-XQCIDCard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A65C77FDC5BBEB36862774FD5F8A7A5 /* UIImage+XQCExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XQCExtend.h"; sourceTree = "<group>"; };
-		5DC1CA2DFD70A5F29112BFDAAC5DAF20 /* ResourceBundle-XQCIDCard-XQCIDCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XQCIDCard-XQCIDCard-Info.plist"; sourceTree = "<group>"; };
-		6540EE04B90BECF323579C4ED3ECB455 /* exbankcardcore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = exbankcardcore.h; sourceTree = "<group>"; };
+		670E229EB30D32BD528FD21E5758DB49 /* XQCCardScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQCCardScanViewController.h; sourceTree = "<group>"; };
+		6B3D041174510B200F114F3F1EB17935 /* XQCBankSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQCBankSearch.m; sourceTree = "<group>"; };
 		6DBA1448D5EDC225C1A1FF07817E3B48 /* Pods-XQCIDCard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XQCIDCard_Example-resources.sh"; sourceTree = "<group>"; };
-		6F29C6347461204C9FF4D84E8AF1FE0B /* BankCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
-		75DFC778B807301C2B77E5B2419A4980 /* IDCard_guohui.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = IDCard_guohui.png; path = XQCIDCard/Assets/IDCard_guohui.png; sourceTree = "<group>"; };
-		7A75774BC5218D373F4D9074A39B186F /* XQCIDCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XQCIDCard-dummy.m"; sourceTree = "<group>"; };
+		6DEFC8C20032FF60EE8A179CEF19570E /* AlertTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlertTool.h; path = XQCIDCard/Classes/AlertTool.h; sourceTree = "<group>"; };
+		71976C432F9C28163F2839552FE3B375 /* UIImage+XQCExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XQCExtend.m"; sourceTree = "<group>"; };
 		8184035616502429EB0F53177050F644 /* Pods-XQCIDCard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XQCIDCard_Tests-Info.plist"; sourceTree = "<group>"; };
-		820BDB7974FFFC3817828FF6909B64AC /* XQCIDCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XQCIDCard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		87C0C5587F09283AABE76AFD5F646796 /* XQCCardScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQCCardScanViewController.h; sourceTree = "<group>"; };
+		845A358F945303322D60F57B6A33EF61 /* XQCIDCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XQCIDCard-prefix.pch"; sourceTree = "<group>"; };
+		8C2E0B4EE0A4F98D75CC0BD32F5C57BE /* NSBundle+loadImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+loadImage.m"; sourceTree = "<group>"; };
 		8D810CBE8985CDC2C05CF89F716F9CAB /* Pods-XQCIDCard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XQCIDCard_Example-Info.plist"; sourceTree = "<group>"; };
-		9D3DCBC19348D0EB5E0A073FF7ED16EA /* libbexbankcard.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libbexbankcard.a; sourceTree = "<group>"; };
+		8E7846A901FEF81F88FE5C96A73F6C57 /* ResourceBundle-XQCIDCard-XQCIDCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XQCIDCard-XQCIDCard-Info.plist"; sourceTree = "<group>"; };
+		939008E8FF0278A6EEED1198F8BAC0BD /* commondef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F9DA9E5EE5A4E77D2223471612FEA8 /* UIButton+paySDkBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+paySDkBtn.h"; sourceTree = "<group>"; };
 		A3654BCBFE40C3C4C40C62A9AE0ED698 /* Pods-XQCIDCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XQCIDCard_Example.modulemap"; sourceTree = "<group>"; };
-		A8BC572BD89EA349D76B31EA18680B39 /* AlertTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AlertTool.m; path = XQCIDCard/Classes/AlertTool.m; sourceTree = "<group>"; };
+		A4603941C04568667BC1D1926DD606D9 /* excards.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		A577E691A363FB93A0CAAB90E6B893E9 /* XQCIDCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XQCIDCard-Info.plist"; sourceTree = "<group>"; };
 		B0F7D73A72B4E7B205D6D02C9C7B1ABD /* Pods-XQCIDCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQCIDCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B3697CFB054A05979F29C5E0EE467FE2 /* excards.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		B785CF861F4637111A736985677801F9 /* XQCIDCardScaningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQCIDCardScaningView.h; sourceTree = "<group>"; };
 		BA71735F30CA318C1C1612F5AC8074C0 /* Pods-XQCIDCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XQCIDCard_Example-umbrella.h"; sourceTree = "<group>"; };
-		C249F62F902BDC22D8FF521073DC96C6 /* publicClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = publicClass.h; sourceTree = "<group>"; };
-		C75D669E994E49040CB01C0C9ED86C26 /* XQCIDCardScaningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQCIDCardScaningView.h; sourceTree = "<group>"; };
+		BB4DEEA9BE031A35288D2049633721BF /* XQCCardModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQCCardModel.m; sourceTree = "<group>"; };
+		BDF316796251D349E36913DA97FAD43E /* XQCBankSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQCBankSearch.h; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC842BB39436A7A3208A5CD2BA096F97 /* NSBundle+loadImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+loadImage.m"; sourceTree = "<group>"; };
 		CCFBCECA8D593B9CCE9F6CC50FCE418A /* Pods-XQCIDCard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XQCIDCard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D4CAD6A985C0DF526410EC3A01255F1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E46EFA665E837C99AD2FD995D3CE19D8 /* XQCIDCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XQCIDCard-umbrella.h"; sourceTree = "<group>"; };
-		E5E1561C8719A2E90339975F0D0CB3D7 /* UIImage+myImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+myImage.h"; sourceTree = "<group>"; };
-		E9584D5117FA05A9FDB7667D7CF95893 /* UIImage+XQCExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XQCExtend.m"; sourceTree = "<group>"; };
+		D08DCB90616CB278EEF68CC45086196F /* publicClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = publicClass.m; sourceTree = "<group>"; };
+		D0962415F3ED5DD7036E3A01F260D4A8 /* NSBundle+loadImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+loadImage.h"; sourceTree = "<group>"; };
+		D10212C736B256944B81B9892AE2A794 /* NavView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NavView.h; path = XQCIDCard/Classes/NavView.h; sourceTree = "<group>"; };
+		D5A9E8D90838693E9223C11DA6631596 /* zocr0.lib */ = {isa = PBXFileReference; includeInIndex = 1; path = zocr0.lib; sourceTree = "<group>"; };
+		E36A02E0F7F34C1AE5234F23B1691552 /* XQCIDCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XQCIDCard-umbrella.h"; sourceTree = "<group>"; };
+		E5D4D5183ED55D3D50D06E4AAE46E17B /* IDCardSDKHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDCardSDKHeader.h; path = XQCIDCard/Classes/IDCardSDKHeader.h; sourceTree = "<group>"; };
+		E64734768415497FD826FCFDDAA95C12 /* XQCCardScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQCCardScanViewController.m; sourceTree = "<group>"; };
 		EAB5D50CC64A1EFEF8C7946C8FF2E9DA /* Pods_XQCIDCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XQCIDCard_Example.framework; path = "Pods-XQCIDCard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F021EEEC7D2971010438FB380D216CD2 /* libscanidcardios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libscanidcardios.a; sourceTree = "<group>"; };
-		F52D6677A01AFDA8CA357A369D1EFC65 /* UIImage+myImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+myImage.m"; sourceTree = "<group>"; };
+		EB180CA81CFA0462E0FA6D572181E3BB /* RectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
+		EBA0FA0CE916EF1DE0A8023613F6AD20 /* UIButton+paySDkBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+paySDkBtn.m"; sourceTree = "<group>"; };
+		F148DE2F90F6A5C1303CD15FCA5B8FE7 /* libbexbankcard.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libbexbankcard.a; sourceTree = "<group>"; };
 		F5708C22054D73B0B5CAA23F4ADABED9 /* Pods_XQCIDCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XQCIDCard_Tests.framework; path = "Pods-XQCIDCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6825CE1CB42326EF08249DF525605A7 /* zocr0.lib */ = {isa = PBXFileReference; includeInIndex = 1; path = zocr0.lib; sourceTree = "<group>"; };
+		F65375F42501AC59EB2722F5533F1FB5 /* UIImage+myImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+myImage.m"; sourceTree = "<group>"; };
+		F69934CE4BC60BB608391EA6A4B5057C /* libscanidcardios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libscanidcardios.a; sourceTree = "<group>"; };
 		F6CEAFB3150B0288C217B6F93A34D95D /* Pods-XQCIDCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XQCIDCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F740650FBBD426062CACC11053786158 /* XQCIDCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XQCIDCard.xcconfig; sourceTree = "<group>"; };
+		F82B9A74B9248B2298E9F737569CDC86 /* navi_back_black.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = navi_back_black.png; path = XQCIDCard/Assets/navi_back_black.png; sourceTree = "<group>"; };
 		F835E908684A0BDB36900F35223C5C7B /* Pods-XQCIDCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQCIDCard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FE7A761CF4A369C11CC876FC369052C2 /* XQCIDCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XQCIDCard-prefix.pch"; sourceTree = "<group>"; };
+		FF2B8EFE11A29E280E0DFC647745E0AB /* XQCIDCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XQCIDCard.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,29 +192,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		032D06A684F5FB66A039FD71B8D4CC57 /* Frameworks */ = {
+		10446A68788E45F93458680FB9D0E710 /* exbankcardcore */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2533688F0EB574FDA36F525BB88DB3A3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				75DFC778B807301C2B77E5B2419A4980 /* IDCard_guohui.png */,
-				17A37940C49A45557EC02D5C96D9EDE6 /* IDCard_head.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2CED5001C3231A81346EC26599880F82 /* exbankcardcore */ = {
-			isa = PBXGroup;
-			children = (
-				9D3DCBC19348D0EB5E0A073FF7ED16EA /* libbexbankcard.a */,
+				F148DE2F90F6A5C1303CD15FCA5B8FE7 /* libbexbankcard.a */,
 			);
 			name = exbankcardcore;
 			path = exbankcardcore;
+			sourceTree = "<group>";
+		};
+		2845CA779C8C38829C6A792320462324 /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				D5A9E8D90838693E9223C11DA6631596 /* zocr0.lib */,
+			);
+			name = dicts;
+			path = dicts;
+			sourceTree = "<group>";
+		};
+		2D8102063C651F9A55C4E7859E73E75C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E7846A901FEF81F88FE5C96A73F6C57 /* ResourceBundle-XQCIDCard-XQCIDCard-Info.plist */,
+				3EFC7A8CC56D3B1924DED90FB2A12B6F /* XQCIDCard.modulemap */,
+				FF2B8EFE11A29E280E0DFC647745E0AB /* XQCIDCard.xcconfig */,
+				1DEC632A457545848B8C7CA9ABF9A762 /* XQCIDCard-dummy.m */,
+				A577E691A363FB93A0CAAB90E6B893E9 /* XQCIDCard-Info.plist */,
+				845A358F945303322D60F57B6A33EF61 /* XQCIDCard-prefix.pch */,
+				E36A02E0F7F34C1AE5234F23B1691552 /* XQCIDCard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XQCIDCard";
 			sourceTree = "<group>";
 		};
 		3FC4E27B73702027E6AD56E20F68DD89 /* Targets Support Files */ = {
@@ -216,18 +234,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4FAEA5C88D202B351740B5391A40B33E /* Category */ = {
+		446394AE413B2EF8A29FCC3D22D5FE74 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				53C7B5C28BE8978B09B6DDDDD15B872E /* NSBundle+loadImage.h */,
-				CC842BB39436A7A3208A5CD2BA096F97 /* NSBundle+loadImage.m */,
-				E5E1561C8719A2E90339975F0D0CB3D7 /* UIImage+myImage.h */,
-				F52D6677A01AFDA8CA357A369D1EFC65 /* UIImage+myImage.m */,
-				5A65C77FDC5BBEB36862774FD5F8A7A5 /* UIImage+XQCExtend.h */,
-				E9584D5117FA05A9FDB7667D7CF95893 /* UIImage+XQCExtend.m */,
+				1E90B92C4F1A23EB12E2F2A591EF6984 /* LICENSE */,
+				3A703EE611B2F706C36EB9D02C2246C9 /* README.md */,
+				329B4CDD8EF85E391842B4F7A1EE3CE0 /* XQCIDCard.podspec */,
 			);
-			name = Category;
-			path = XQCIDCard/Classes/Category;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		48012DCEFA457EDD5BAA763327E7D972 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24D83BAFC2E3A127B19F0616E05D95B5 /* IDCard_guohui.png */,
+				0DCF6803BFC56890FC4EA524593A3008 /* IDCard_head.png */,
+				F82B9A74B9248B2298E9F737569CDC86 /* navi_back_black.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		65F913432DD9B77207BB587E20D938C6 /* Pods-XQCIDCard_Tests */ = {
@@ -246,13 +270,32 @@
 			path = "Target Support Files/Pods-XQCIDCard_Tests";
 			sourceTree = "<group>";
 		};
-		810007938B613698137C551E6C785DFC /* dicts */ = {
+		6BCF3C900E2492FAEC3C44C547115456 /* CardTool */ = {
 			isa = PBXGroup;
 			children = (
-				F6825CE1CB42326EF08249DF525605A7 /* zocr0.lib */,
+				52BA07C0AE4CB395C87FE859F64F062F /* publicClass.h */,
+				D08DCB90616CB278EEF68CC45086196F /* publicClass.m */,
+				32AD5DA7F67FB5BE0E35308BCCCBE2FD /* RectManager.h */,
+				EB180CA81CFA0462E0FA6D572181E3BB /* RectManager.m */,
+				BDF316796251D349E36913DA97FAD43E /* XQCBankSearch.h */,
+				6B3D041174510B200F114F3F1EB17935 /* XQCBankSearch.m */,
+				0364201C762C5759CF937C8544B11154 /* XQCCardModel.h */,
+				BB4DEEA9BE031A35288D2049633721BF /* XQCCardModel.m */,
+				670E229EB30D32BD528FD21E5758DB49 /* XQCCardScanViewController.h */,
+				E64734768415497FD826FCFDDAA95C12 /* XQCCardScanViewController.m */,
+				B785CF861F4637111A736985677801F9 /* XQCIDCardScaningView.h */,
+				457E7A7BEEB1487F2E22472147732158 /* XQCIDCardScaningView.m */,
+				EB7C9DD4F2CD55B682B3119263CF842A /* liscanidcard */,
 			);
-			name = dicts;
-			path = dicts;
+			name = CardTool;
+			path = XQCIDCard/Classes/CardTool;
+			sourceTree = "<group>";
+		};
+		6DAFDD144D7A7602773D938D588F613D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -261,27 +304,6 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		9C530F500B4937D09C1D0B659C48813D /* CardTool */ = {
-			isa = PBXGroup;
-			children = (
-				C249F62F902BDC22D8FF521073DC96C6 /* publicClass.h */,
-				548610A15C74140C93788B62A2B1FFEE /* publicClass.m */,
-				357CEC104C02CE80111BD1AC9DC0AD12 /* RectManager.h */,
-				1ECA21B0AAD2DA696F759B85626687FA /* RectManager.m */,
-				4384282DD373E5E04A78117767F2B24E /* XQCBankSearch.h */,
-				351E36D16E8AC75C73670307FE2E9A3E /* XQCBankSearch.m */,
-				1CECAFDF036D02F9564FF6D9F43DB5CE /* XQCCardModel.h */,
-				2EFC70F5F402617CADDB73006794A3A0 /* XQCCardModel.m */,
-				87C0C5587F09283AABE76AFD5F646796 /* XQCCardScanViewController.h */,
-				151066E5C891B1726473762CA994C826 /* XQCCardScanViewController.m */,
-				C75D669E994E49040CB01C0C9ED86C26 /* XQCIDCardScaningView.h */,
-				06B4736CC772E442339D172E059BE072 /* XQCIDCardScaningView.m */,
-				E12389FEED162377D7CACAACB368F0C9 /* liscanidcard */,
-			);
-			name = CardTool;
-			path = XQCIDCard/Classes/CardTool;
 			sourceTree = "<group>";
 		};
 		A5BDA924E540C37C36470136F6C4CC32 /* Pods-XQCIDCard_Example */ = {
@@ -301,22 +323,31 @@
 			path = "Target Support Files/Pods-XQCIDCard_Example";
 			sourceTree = "<group>";
 		};
-		B7696129F9396F8309996114EB2D0BC2 /* Development Pods */ = {
+		B4EDC4CDD8C9D4D2CB87DDDD269490C5 /* XQCIDCard */ = {
 			isa = PBXGroup;
 			children = (
-				D8AD2C1FC08F37D448CA02ECD2F1B94C /* XQCIDCard */,
+				6DEFC8C20032FF60EE8A179CEF19570E /* AlertTool.h */,
+				487B7AAED551B71CEFDD970E28BD0180 /* AlertTool.m */,
+				E5D4D5183ED55D3D50D06E4AAE46E17B /* IDCardSDKHeader.h */,
+				D10212C736B256944B81B9892AE2A794 /* NavView.h */,
+				19928EDD3586C8BFF02B1EA628FB27B6 /* NavView.m */,
+				6BCF3C900E2492FAEC3C44C547115456 /* CardTool */,
+				F3F8C74A044B1F1E4E7DEAACD64ADE81 /* Category */,
+				6DAFDD144D7A7602773D938D588F613D /* Frameworks */,
+				446394AE413B2EF8A29FCC3D22D5FE74 /* Pod */,
+				48012DCEFA457EDD5BAA763327E7D972 /* Resources */,
+				2D8102063C651F9A55C4E7859E73E75C /* Support Files */,
 			);
-			name = "Development Pods";
+			name = XQCIDCard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		BA1E01667D7F84AEA19B5CA73C04A2F1 /* Pod */ = {
+		BC6F000657DED1796DDFBA875EAC59D4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53311B5B28AC74F548EF33E0E253094C /* LICENSE */,
-				D4CAD6A985C0DF526410EC3A01255F1E /* README.md */,
-				820BDB7974FFFC3817828FF6909B64AC /* XQCIDCard.podspec */,
+				B4EDC4CDD8C9D4D2CB87DDDD269490C5 /* XQCIDCard */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BFC8A6F86CEFBA55C8DB93EC229020C2 /* Products */ = {
@@ -334,7 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B7696129F9396F8309996114EB2D0BC2 /* Development Pods */,
+				BC6F000657DED1796DDFBA875EAC59D4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BFC8A6F86CEFBA55C8DB93EC229020C2 /* Products */,
 				3FC4E27B73702027E6AD56E20F68DD89 /* Targets Support Files */,
@@ -349,52 +380,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8AD2C1FC08F37D448CA02ECD2F1B94C /* XQCIDCard */ = {
+		EB7C9DD4F2CD55B682B3119263CF842A /* liscanidcard */ = {
 			isa = PBXGroup;
 			children = (
-				39962D7E2AB6AB294BE70BE70F1DCC0E /* AlertTool.h */,
-				A8BC572BD89EA349D76B31EA18680B39 /* AlertTool.m */,
-				2354D2BB6D247BC58EE6663ED85ACC20 /* IDCardSDKHeader.h */,
-				9C530F500B4937D09C1D0B659C48813D /* CardTool */,
-				4FAEA5C88D202B351740B5391A40B33E /* Category */,
-				032D06A684F5FB66A039FD71B8D4CC57 /* Frameworks */,
-				BA1E01667D7F84AEA19B5CA73C04A2F1 /* Pod */,
-				2533688F0EB574FDA36F525BB88DB3A3 /* Resources */,
-				F75B93FEB58B261930438879165A6A74 /* Support Files */,
-			);
-			name = XQCIDCard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E12389FEED162377D7CACAACB368F0C9 /* liscanidcard */ = {
-			isa = PBXGroup;
-			children = (
-				6F29C6347461204C9FF4D84E8AF1FE0B /* BankCard.h */,
-				44394D77C51151E55BD2FB8C96234896 /* commondef.h */,
-				24E86D8A072EA1E2B0873F462CB871BA /* exbankcard.h */,
-				6540EE04B90BECF323579C4ED3ECB455 /* exbankcardcore.h */,
-				B3697CFB054A05979F29C5E0EE467FE2 /* excards.h */,
-				F021EEEC7D2971010438FB380D216CD2 /* libscanidcardios.a */,
-				810007938B613698137C551E6C785DFC /* dicts */,
-				2CED5001C3231A81346EC26599880F82 /* exbankcardcore */,
+				45ECEABB975E9794ED840FEE648D5D8D /* BankCard.h */,
+				939008E8FF0278A6EEED1198F8BAC0BD /* commondef.h */,
+				16FCA5E1814BD1CA57DC4B5EB75945D0 /* exbankcard.h */,
+				4155A95CE26005E456F8860D771DC7A5 /* exbankcardcore.h */,
+				A4603941C04568667BC1D1926DD606D9 /* excards.h */,
+				F69934CE4BC60BB608391EA6A4B5057C /* libscanidcardios.a */,
+				2845CA779C8C38829C6A792320462324 /* dicts */,
+				10446A68788E45F93458680FB9D0E710 /* exbankcardcore */,
 			);
 			name = liscanidcard;
 			path = liscanidcard;
 			sourceTree = "<group>";
 		};
-		F75B93FEB58B261930438879165A6A74 /* Support Files */ = {
+		F3F8C74A044B1F1E4E7DEAACD64ADE81 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				5DC1CA2DFD70A5F29112BFDAAC5DAF20 /* ResourceBundle-XQCIDCard-XQCIDCard-Info.plist */,
-				4B3484C6348F4CA667066BD70C81C187 /* XQCIDCard.modulemap */,
-				F740650FBBD426062CACC11053786158 /* XQCIDCard.xcconfig */,
-				7A75774BC5218D373F4D9074A39B186F /* XQCIDCard-dummy.m */,
-				011D8C05102DA37BF7CDB2DAEEAFCF9D /* XQCIDCard-Info.plist */,
-				FE7A761CF4A369C11CC876FC369052C2 /* XQCIDCard-prefix.pch */,
-				E46EFA665E837C99AD2FD995D3CE19D8 /* XQCIDCard-umbrella.h */,
+				D0962415F3ED5DD7036E3A01F260D4A8 /* NSBundle+loadImage.h */,
+				8C2E0B4EE0A4F98D75CC0BD32F5C57BE /* NSBundle+loadImage.m */,
+				A1F9DA9E5EE5A4E77D2223471612FEA8 /* UIButton+paySDkBtn.h */,
+				EBA0FA0CE916EF1DE0A8023613F6AD20 /* UIButton+paySDkBtn.m */,
+				5305822E5BF7172464BC1B5EA6C30BFC /* UIImage+myImage.h */,
+				F65375F42501AC59EB2722F5533F1FB5 /* UIImage+myImage.m */,
+				0DB55A82669B2F641637167274BB4153 /* UIImage+XQCExtend.h */,
+				71976C432F9C28163F2839552FE3B375 /* UIImage+XQCExtend.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XQCIDCard";
+			name = Category;
+			path = XQCIDCard/Classes/Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,27 +431,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE19CF37E1492F366DE3C4D60A6A7026 /* Headers */ = {
+		9D13DD62EA45DE847111ADB7268A10F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585AE304BE53780CF5CBE90995041CC5 /* AlertTool.h in Headers */,
-				121882486C30C539B0F885A5F92D34F5 /* BankCard.h in Headers */,
-				0B45AF7739E25B9ECD9032FC1DB245EC /* commondef.h in Headers */,
-				5FAFDF73D05BDB91B74C1411D7E92F54 /* exbankcard.h in Headers */,
-				0F10B22C37A3868BF7DC9117B52493A6 /* exbankcardcore.h in Headers */,
-				D5F80DDE1EECBBB37A860AB99E5E6DAA /* excards.h in Headers */,
-				33309CFB9CF4F7DE72F3DD11F22E9A7B /* IDCardSDKHeader.h in Headers */,
-				D9D173F0E1F125EDF56B32C40FE8E867 /* NSBundle+loadImage.h in Headers */,
-				5E165C6EDB7234884C2C27431BABA89C /* publicClass.h in Headers */,
-				194B7973D3547D4D414BF9A0681F4E23 /* RectManager.h in Headers */,
-				C093D423AAE0FCD10CD826B3215444E4 /* UIImage+myImage.h in Headers */,
-				424954646D7E975C969A83913500ED2F /* UIImage+XQCExtend.h in Headers */,
-				99CDAEC2A25B2BC1D7265D7A927A32DA /* XQCBankSearch.h in Headers */,
-				676954C35FB91438A036F32422452663 /* XQCCardModel.h in Headers */,
-				B7FC53D94053C43663BC19288A386145 /* XQCCardScanViewController.h in Headers */,
-				EC2E07B95BC7646DCA7CFA2A4AEC24E0 /* XQCIDCard-umbrella.h in Headers */,
-				BFE9029559DE8A8A8E4C0C5631C1A643 /* XQCIDCardScaningView.h in Headers */,
+				BC32C03AE522EC1A0C54F7EC11911524 /* AlertTool.h in Headers */,
+				AC16CEE6354BDC10A2635FB83D343E43 /* BankCard.h in Headers */,
+				4D3EDC6FADEF3124B95EA8CA5D2857AD /* commondef.h in Headers */,
+				BC2FF73DE6F740845402581DA87B832F /* exbankcard.h in Headers */,
+				E3C362AA9848BAE645B82D4850B64E9F /* exbankcardcore.h in Headers */,
+				CC73B873358AA5A4C3FB5079FC02F9C2 /* excards.h in Headers */,
+				02B13BCBE1C55FB232B49276EE638B7D /* IDCardSDKHeader.h in Headers */,
+				FA35766510BA9018C49874F67B94C964 /* NavView.h in Headers */,
+				95C1FD34213F4E04BFEDD81F30DB583A /* NSBundle+loadImage.h in Headers */,
+				49507F998433DDAFD0DC3DACA3A2BE16 /* publicClass.h in Headers */,
+				7FABA74BC69ECBF80B74EAD196C3226A /* RectManager.h in Headers */,
+				62FA6DE3F8D68D5DE7CFFC3A67AE4410 /* UIButton+paySDkBtn.h in Headers */,
+				230C926D39A32F806489E59B84140081 /* UIImage+myImage.h in Headers */,
+				0E6ED3124142B97BA5D7F05C0DAC81B9 /* UIImage+XQCExtend.h in Headers */,
+				B13343443771DF2C9A1D325A72D1C1E6 /* XQCBankSearch.h in Headers */,
+				F77A51FC393296A3BDCBA335EF1214FC /* XQCCardModel.h in Headers */,
+				C6C8F407ACF2F853EEA5908C87DEEBDE /* XQCCardScanViewController.h in Headers */,
+				2D93B881831F9A8846D01A65B611C13B /* XQCIDCard-umbrella.h in Headers */,
+				B3544DF040E4E7B28CB1CE6A92F479A5 /* XQCIDCardScaningView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +504,7 @@
 			buildPhases = (
 				969D636496A3D95465A5D722C58FDDB4 /* Sources */,
 				53EABEBF25CDF886466EE195B7C774C2 /* Frameworks */,
-				CF6503517BA71C5C39AE9DA4A87E1491 /* Resources */,
+				6D4465A98AC7AA8D0AA0E60B435F6DC3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -502,8 +519,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8BC636E33F9A85F09C33AB50E5A1FCC /* Build configuration list for PBXNativeTarget "XQCIDCard" */;
 			buildPhases = (
-				AE19CF37E1492F366DE3C4D60A6A7026 /* Headers */,
-				BD2709AB7C67B3FC694BB0109D4CECCD /* Sources */,
+				9D13DD62EA45DE847111ADB7268A10F7 /* Headers */,
+				F27BC831653D63861F4272889676BE40 /* Sources */,
 				7DF93E7DE02640C805D18E43AB937713 /* Frameworks */,
 				0D30AE9ED45D04B1E137DA32D3224DF7 /* Resources */,
 			);
@@ -568,19 +585,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D4465A98AC7AA8D0AA0E60B435F6DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A28AFDF1D69BA745EE8846752CC242 /* IDCard_guohui.png in Resources */,
+				B6D5094A450360EA1E70DA9369A414A0 /* IDCard_head.png in Resources */,
+				0E2BB0A61C8C4F475E3031A78801B034 /* navi_back_black.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8818FFC6C6A6494F01468137EC23FB93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF6503517BA71C5C39AE9DA4A87E1491 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C033621271B1D68888BE7B9D14C851F /* IDCard_guohui.png in Resources */,
-				E3EA87339630E7F6E4D20686BF36C477 /* IDCard_head.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,24 +628,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD2709AB7C67B3FC694BB0109D4CECCD /* Sources */ = {
+		F27BC831653D63861F4272889676BE40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A767653CC72452FE8EE42777F8A1FED /* AlertTool.m in Sources */,
-				5C37D59A54AAEE27C1667C39C90F2443 /* libbexbankcard.a in Sources */,
-				2B49F3B67E05D887E6A601F02C87EE79 /* libscanidcardios.a in Sources */,
-				AFB3E6DDBFFD05BC523306B60F6864A4 /* NSBundle+loadImage.m in Sources */,
-				D8A61D8E0FE6ECE44CD95A1AEAAD337D /* publicClass.m in Sources */,
-				8FDFCD44455EA20C8116284A717184F1 /* RectManager.m in Sources */,
-				C26587E38BEA1F744C3CDDC9D76188C1 /* UIImage+myImage.m in Sources */,
-				7EF6FC1BEA07A1F99C44BD19E0C9E122 /* UIImage+XQCExtend.m in Sources */,
-				FBC59DEE29B8A39ECDD125241EBC3EFF /* XQCBankSearch.m in Sources */,
-				5832660727A6C6B12BE9A20F61DD54A5 /* XQCCardModel.m in Sources */,
-				874168E5DFF7DB50D867C494FB294B99 /* XQCCardScanViewController.m in Sources */,
-				B023F2D78DF609149301C0D6D98D891E /* XQCIDCard-dummy.m in Sources */,
-				79764173434B6AEC675A44E015E30F01 /* XQCIDCardScaningView.m in Sources */,
-				DD006E0DDD3AB01F0B7E6A75257E1075 /* zocr0.lib in Sources */,
+				707CC9218CFFD48D02DB7BF98F77F724 /* AlertTool.m in Sources */,
+				3B5FC3610E9C1689AD28DA3B9E755B35 /* libbexbankcard.a in Sources */,
+				C409F3FB3F93735AEDAE8FB609422995 /* libscanidcardios.a in Sources */,
+				CB5D47745BA44A5579386445D0D71DB3 /* NavView.m in Sources */,
+				8495F13C8271BD2903FB93B9F1842924 /* NSBundle+loadImage.m in Sources */,
+				6897F3018C1B3DA94E7EB8E6ADB2239C /* publicClass.m in Sources */,
+				7353F3F02F1D2E3F6620F26A6AE5DB6F /* RectManager.m in Sources */,
+				D92408BCA867F2AAA03F372ABCA59CAB /* UIButton+paySDkBtn.m in Sources */,
+				C12168A5B0669B73B801E98106BF3E57 /* UIImage+myImage.m in Sources */,
+				4440957EB840A6BAC9EE7C07D800D554 /* UIImage+XQCExtend.m in Sources */,
+				9031D99B12A1B7F52E4C6BB926A3BED4 /* XQCBankSearch.m in Sources */,
+				C6E8064AF712E9F27257B425F76737AD /* XQCCardModel.m in Sources */,
+				1EB00E42FE9129BECFF54426ECB14EB9 /* XQCCardScanViewController.m in Sources */,
+				CFCAFA8ECACA1D25450B59BDC0C5574D /* XQCIDCard-dummy.m in Sources */,
+				1E40501045F883D5BF20AA2FDED75089 /* XQCIDCardScaningView.m in Sources */,
+				53130FAB86DBDDCC8468D2204395D517 /* zocr0.lib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,7 +741,7 @@
 		};
 		2BED7D8FFCD93B8A475B02E3A4FE91B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F740650FBBD426062CACC11053786158 /* XQCIDCard.xcconfig */;
+			baseConfigurationReference = FF2B8EFE11A29E280E0DFC647745E0AB /* XQCIDCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -786,7 +806,7 @@
 		};
 		6395E5DAEC19DDD4A4CD3AB00DDB8931 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F740650FBBD426062CACC11053786158 /* XQCIDCard.xcconfig */;
+			baseConfigurationReference = FF2B8EFE11A29E280E0DFC647745E0AB /* XQCIDCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -980,7 +1000,7 @@
 		};
 		A1C44450C1FC4EEEB5E37F6BE82FC653 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F740650FBBD426062CACC11053786158 /* XQCIDCard.xcconfig */;
+			baseConfigurationReference = FF2B8EFE11A29E280E0DFC647745E0AB /* XQCIDCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XQCIDCard";
@@ -996,7 +1016,7 @@
 		};
 		A6636FB421D22C68E95DA5D1EEA0536C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F740650FBBD426062CACC11053786158 /* XQCIDCard.xcconfig */;
+			baseConfigurationReference = FF2B8EFE11A29E280E0DFC647745E0AB /* XQCIDCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XQCIDCard";

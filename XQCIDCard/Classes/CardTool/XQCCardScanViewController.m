@@ -16,6 +16,7 @@
 #import "XQCBankSearch.h"
 #import "IDCardSDKHeader.h"
 #import "AlertTool.h"
+#import "NavView.h"
 @interface XQCCardScanViewController ()<AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureMetadataOutputObjectsDelegate>
 
 //身份证数据模型
@@ -52,14 +53,25 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"扫描";
+//    self.navigationItem.title = @"扫描";
 //    [[XQCAlertTool showAlertTitle:@"模拟器没有摄像设备" message:@"请使用真机测试！！！"] subscribeNext:^(id  _Nullable x) {
 //        [self.navigationController popViewControllerAnimated:YES];
 //    }];
+    NavView *nav = [[NavView alloc] initWithFrame:CGRectMake(0, 0, XQCPHONE_WIDTH, XQCNAVIGATION_BAR_HEIGHT)];
+    [self.view addSubview:nav];
+    
+    nav.click = ^(UIButton * _Nonnull btn) {
+        [self goback];
+    };
     [AlertTool showTitle:@"模拟器没有摄像设备" Message:@"请使用真机测试！！！" cancleTitle:@"" sureTitle:@"确定" viewController:self cancle:^(UIAlertAction * _Nonnull action) {
         
     } sure:^(UIAlertAction * _Nonnull action) {
-        [self.navigationController popViewControllerAnimated:YES];
+        UINavigationController *navigation = self.navigationController;
+        if (navigation) {
+            [navigation popViewControllerAnimated:YES];
+        } else {
+            [self dismissViewControllerAnimated:YES completion:nil];
+        } 
     }];
 }
 
@@ -281,7 +293,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.navigationController.title = @"扫描";
+//    self.navigationController.title = @"扫描";
+    
+    NavView *nav = [[NavView alloc] initWithFrame:CGRectMake(0, 0, XQCPHONE_WIDTH, XQCNAVIGATION_BAR_HEIGHT)];
+    [self.view addSubview:nav];
+    
+    nav.click = ^(UIButton * _Nonnull btn) {
+        [self goback];
+    };
     // 初始化rect
     const char *thePath = [[[NSBundle mainBundle] resourcePath] UTF8String];
     int ret = EXCARDS_Init(thePath);
@@ -548,7 +567,7 @@
                 
                 
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    [self.navigationController popViewControllerAnimated:YES];
+                    [self goback];
                 });
             }
         }
@@ -613,13 +632,23 @@
                 
                 
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    [self.navigationController popViewControllerAnimated:YES];
+                    [self goback];
                 });
             });
         }
     }
     CVPixelBufferUnlockBaseAddress(imageBuffer, 0);
 }
+
+- (void)goback {
+    UINavigationController *navigation = self.navigationController;
+    if (navigation) {
+        [navigation popViewControllerAnimated:YES];
+    } else {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+}
+
 
 
 - (void)didReceiveMemoryWarning {
