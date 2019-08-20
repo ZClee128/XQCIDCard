@@ -61,7 +61,12 @@
     [self.view addSubview:nav];
     
     nav.click = ^(UIButton * _Nonnull btn) {
-        [self goback];
+        UINavigationController *navigation = self.navigationController;
+        if (navigation) {
+            [navigation popViewControllerAnimated:YES];
+        } else {
+            [self dismissViewControllerAnimated:YES completion:nil];
+        }
     };
     [AlertTool showTitle:@"模拟器没有摄像设备" Message:@"请使用真机测试！！！" cancleTitle:@"" sureTitle:@"确定" viewController:self cancle:^(UIAlertAction * _Nonnull action) {
         
