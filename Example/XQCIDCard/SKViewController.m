@@ -22,7 +22,7 @@
 }
 - (IBAction)scan:(id)sender {
     XQCCardScanViewController *cardScan = [[XQCCardScanViewController alloc] init];
-    cardScan.cardtype = ScaningCardIDWithFront;
+    cardScan.cardtype = ScaningCardIDWithDown;
     cardScan.complete = ^(XQCCardModel * _Nonnull model) {
         NSLog(@"model ==>%@",model);
     };

@@ -524,6 +524,18 @@
             if (model) {// 读取到身份证信息，实例化出IDInfo对象后，截取身份证的有效区域，获取到图像
 //                NSLog(@"\n正面\n姓名：%@\n性别：%@\n民族：%@\n住址：%@\n公民身份证号码：%@\n\n反面\n签发机关：%@\n有效期限：%@",iDInfo.name,iDInfo.gender,iDInfo.nation,iDInfo.address,iDInfo.code,iDInfo.issue,iDInfo.valid);
                 NSLog(@"model?>>>>>>>>%@",model);
+                if (self.cardtype == ScaningCardIDWithDown) {
+                    if (model.name != nil && ![model.name isEqualToString:@""] ) {
+                        dispatch_async(dispatch_get_main_queue(), ^{
+                            [AlertTool showTitle:@"" Message:@"请切换身份证背面" cancleTitle:@"" sureTitle:@"确定" viewController:self cancle:^(UIAlertAction * _Nonnull action) {
+                                
+                            } sure:^(UIAlertAction * _Nonnull action) {
+                                [self runSession];
+                            }];
+                        });
+                        return;
+                    }
+                }
                 CGRect effectRect = [RectManager getEffectImageRect:CGSizeMake(width, height)];
                 CGRect rect = [RectManager getGuideFrame:effectRect];
                 
