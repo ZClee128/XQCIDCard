@@ -273,7 +273,7 @@
     [super viewWillAppear:animated];
     
     // 将AVCaptureViewController的navigationBar调为透明
-    [[[self.navigationController.navigationBar subviews] objectAtIndex:0] setAlpha:0];
+//    [[[self.navigationController.navigationBar subviews] objectAtIndex:0] setAlpha:0];
     //    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     
     // 每次展现AVCaptureViewController的界面时，都检查摄像头使用权限
@@ -289,7 +289,7 @@
     [super viewWillDisappear:animated];
     
     // 将AVCaptureViewController的navigationBar调为不透明
-    [[[self.navigationController.navigationBar subviews] objectAtIndex:0] setAlpha:1];
+//    [[[self.navigationController.navigationBar subviews] objectAtIndex:0] setAlpha:1];
     //    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor]}];
     
     [self stopSession];
